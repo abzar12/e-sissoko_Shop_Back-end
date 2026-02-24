@@ -1,5 +1,4 @@
 import bcrypt, { hash } from "bcrypt"
-import cookieParser from "cookieParser"
 import UserService from "../services/user.service.js";
 import { GenerateUserId } from "../utils/generateUuid.js";
 import { Generate_access_Token, Generate_refresh_Token } from "../utils/generateToken.js";
